@@ -1,0 +1,289 @@
+/*Comienzo de css margin y padding*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Body*/
+
+body {
+    background: url('/imagenes/madera5.png');
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*Fin body*/
+
+/*Header*/
+
+.header-container{
+    background: url('/imagenes/fondorosa.png');
+    padding: 20px 0;
+    border: 5px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+
+a{
+    text-decoration: none;
+    color:rgb(109, 43, 70);
+    font-size: 1.2rem;
+}
+
+
+.titulo-container{
+    background: url('/imagenes/fondorosa.png');
+    border: 5px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+
+.logosytitulo{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    padding: 20px 0;
+    color:rgb(109, 43, 70);
+}
+
+
+h5{
+    font-size: 0.5em;
+    padding-left: 30px;
+}
+
+/*Fin header*/
+
+/*Section Primera Pagina imagenes carousel*/
+
+.carousel{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+
+/*Fin Primera PAgina imagenes carousel*/
+
+/*Titulos H2*/
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    background: url('/imagenes/fondorosa.png');
+    color: rgb(109, 43, 70);
+    font-size: 2.2em;
+    text-decoration: underline;
+    text-align: center;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+/*Fin Titulos H2*/
+
+/*Section Segunda Pagina Productos*/
+
+.box-imagen-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+
+.box-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.border-img{
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+
+.color-titulo{
+    color: rgb(160, 0, 61);
+    padding: 10px;
+}
+
+/*Fin Pagina Productos*/
+
+/*Section Tercera Pagina Nosotros*/
+
+.box-imagen{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagenosotros{
+    width: 40%;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+
+.parrafosnosotros{
+    margin: 10px 10px 10px 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(160, 0, 61);
+    text-align: justify;
+}
+
+/*Fin Tercera Pagina Nosotros*/
+
+/*Section Cuarta Pagina Contactenos*/
+
+form {
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgb(160, 0, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker-form {
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 0 40px 0;
+    padding: 50px;
+}
+
+.form-row { 
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="number"] {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(160, 0, 61);
+}
+
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row textarea {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(160, 0, 61);
+    font-size: 14px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+    min-height: 200px;
+    min-width: 150%;
+    resize: none;
+}
+
+.instructions {
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: rgb(160, 0, 61);
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(160, 0, 61);
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: palevioletred;
+}
+
+.form-row button:active {
+    background-color: rgb(226, 124, 187);
+}
+
+
+/*Fin cuarta Pagina Contactenos*/
+
+/*Section Pagina Quinta Metodos de Pago*/
+/*ACLARACION: ESTA PAGINA ESTA PROGRAMADA CON LOS ATRIBUTOS DE LAS PAGINAS ANTERIORES*/
+
+
+/*Footer 1*/
+
+footer{
+    background: url('/imagenes/fondorosa.png');
+    border: 5px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box1{
+    
+    text-align: center;
+    
+}
+
+
+h3{
+    font-size: 1.5em;
+    margin: 20px 80px 20px 80px;
+    color: rgb(109, 43, 70);
+}
+
+
+.textfooter{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(109, 43, 70);
+}
+
+
+.imagen-footer{
+    width: 40%;
+    height: 60%;
+    border-radius: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/*Fin Footer 1*/
+
