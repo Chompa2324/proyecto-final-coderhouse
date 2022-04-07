@@ -7,7 +7,7 @@
 /*Body*/
 
 body {
-    background: url('/imagenes/madera5.png');
+    background: url('imagenes/madera5.png');
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -16,7 +16,7 @@ body {
 /*Header*/
 
 .header-container{
-    background: url('/imagenes/fondorosa.png');
+    background: url('imagenes/fondorosa.png');
     padding: 20px 0;
     border: 5px solid gray;
     border-radius: 20px;
@@ -40,7 +40,7 @@ a{
 
 
 .titulo-container{
-    background: url('/imagenes/fondorosa.png');
+    background: url('imagenes/fondorosa.png');
     border: 5px solid gray;
     border-radius: 20px;
     display: flex;
@@ -84,7 +84,7 @@ h2{
     margin-top: 10px;
     margin-bottom: 5px;
     padding: 10px 0;
-    background: url('/imagenes/fondorosa.png');
+    background: url('imagenes/fondorosa.png');
     color: rgb(109, 43, 70);
     font-size: 2.2em;
     text-decoration: underline;
@@ -240,7 +240,7 @@ form {
 /*Footer 1*/
 
 footer{
-    background: url('/imagenes/fondorosa.png');
+    background: url('imagenes/fondorosa.png');
     border: 5px solid gray;
     border-radius: 20px;
     display: flex;
