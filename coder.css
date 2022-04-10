@@ -136,19 +136,6 @@ h2{
 
 /*Section Tercera Pagina Nosotros*/
 
-.box-imagen{
-    display: flex;
-    justify-content: center;
-}
-
-
-.imagenosotros{
-    width: 40%;
-    border: 5px solid gray;
-    border-radius: 20px;
-}
-
-
 .parrafosnosotros{
     margin: 10px 10px 10px 10px;
     font-size: 1.3em;
