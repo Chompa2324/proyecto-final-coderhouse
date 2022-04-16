@@ -114,6 +114,7 @@ h5{
     background-color: pink;
     border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 5px;
     padding: 2px 8px;
     border: 2px solid rgb(160, 0, 61);
 }
@@ -193,8 +194,8 @@ form {
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 7px;
-    min-height: 200px;
-    min-width: 150%;
+    min-height: 150px;
+    min-width: 120%;
     resize: none;
 }
 
