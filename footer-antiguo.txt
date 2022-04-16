@@ -1,0 +1,126 @@
+<!--Pie de Pagina-->
+    <footer>
+        
+        <div class="box-footer">
+            <div class="box1">
+                <h3>Productos</h3>
+                    <div class="textfooter">Remeras</div>
+                    <div class="textfooter">Camperas</div> 
+                    <div class="textfooter">Sweatters</div> 
+                    <div class="textfooter">Buzos</div> 
+                    <div class="textfooter">Pantalones</div> 
+                    <div class="textfooter">Accesorios</div>
+            </div>
+        
+            <div class="box1">
+                <h3>Nosotros</h3>
+                    <div class="textfooter">Showroom Freyja</div>
+                    <div class="textfooter">San Rafael - Mendoza</div>
+                    <div class="textfooter">BY ESTATE ATENTA</div>
+                    <div><img class="imagen-footer" src="imagenes/logodelapagina.png" alt="Showroom Freyja"></div>
+                    <div class="textfooter"><p>©️ Todos los Derechos Reservados - By Estate Atenta 2022</p></div> 
+            </div>
+
+            <div class="box1">
+                <h3>Contactos</h3>
+                    <div class="textfooter">Tel: 02604-332514</div>
+                    <div class="textfooter">showroomfreyja@gmail.com</div>
+                    <div class="textfooter"><a href="https://www.instagram.com/showroom_freyja/">Instagram</a></div>
+                    <div class="textfooter"><a href="https://www.facebook.com">Facebook Freyja</a></div>
+            </div>
+    
+            
+        </div>
+
+    </footer>
+    <!--Fin Footer-->
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+/*Footer 1*/
+
+footer{
+    background: url('imagenes/fondorosa.png');
+    border: 5px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.box-footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box1{
+    
+    text-align: center;
+    
+}
+
+
+h3{
+    font-size: 1.5em;
+    margin: 20px 80px 20px 80px;
+    color: rgb(0, 0, 0);
+}
+
+
+.textfooter{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.imagen-footer{
+    width: 40%;
+    height: 60%;
+    border-radius: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/*Fin Footer 1*/
+
+/*Medias Queries para Footer*/
+
+@media screen and (max-width: 576px) {
+    footer {
+        background: url('imagenes/fondorosa.png');
+        border: 3px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .textfooter {
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    h3 {
+        font-size: 0.8em;
+        margin: 5px 30px 5px 30px;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .imagen-footer {
+        width: 10%;
+        height: 20%;
+        border-radius: 50px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+}
