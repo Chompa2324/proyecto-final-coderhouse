@@ -40,13 +40,6 @@ a{
 }
 
 
-.logo {
-    width: 10%;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-
 .titulo-container{
     background: url('imagenes/fondorosa.png');
     border: 5px solid black;
