@@ -1,7 +1,7 @@
 /*Body*/
 
 body {
-    background: url('imagenes/madera5.png');
+    background: url($usa-image-path);
     font-family: $primary-font-family;
 }
 
@@ -10,7 +10,7 @@ body {
 /*Header*/
 
 .header-container{
-    background: url('imagenes/fondorosa.png');
+    background: url($image-tittles);
     padding: 20px 0;
     border: 5px solid $primary-color;
     border-radius: 20px;
@@ -28,7 +28,7 @@ a{
 
 
 .titulo-container{
-    background: url('imagenes/fondorosa.png');
+    background: url($image-tittles);
     border: 5px solid $primary-color;
     border-radius: 20px;
     display: flex;
@@ -62,7 +62,7 @@ h5{
     margin-top: 10px;
     margin-bottom: 5px;
     padding: 10px 0;
-    background: url('imagenes/fondorosa.png');
+    background: url($image-tittles);
     color: $primary-color;
     font-size: 2.2em;
     text-decoration: none;

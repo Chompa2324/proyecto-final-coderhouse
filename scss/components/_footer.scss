@@ -1,7 +1,7 @@
 /*Footer 1*/
 
 footer{
-    background: url('imagenes/fondorosa.png');
+    background: url($image-tittles);
     border: 5px solid $primary-color;
     border-radius: 20px;
     display: flex;
