@@ -9,7 +9,7 @@
 /*Componentes de las paginas*/
 /*Body*/
 body {
-  background: url("../imagenes/madera5.png");
+  background: url("../imagenes/maderablanca.png");
   font-family: "Poppins", sans-serif;
 }
 
@@ -22,6 +22,12 @@ body {
   border-radius: 20px;
   display: flex;
   justify-content: center;
+}
+
+.imagen-logo {
+  width: 15%;
+  border-radius: 50px;
+  border: 2px solid black;
 }
 
 a {
@@ -38,6 +44,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 40px;
   font-size: 0.8rem;
 }
 
