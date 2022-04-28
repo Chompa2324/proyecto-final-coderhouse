@@ -4,9 +4,19 @@
 /*Variables*/
 @import './base/variables';
 
+/*Extends en botones productos y boton enviar de contactenos*/
+@import './base/extends';
+
+/*Mixin*/
+@import './base/mixins';
+
+/*Listas*/
+@import './base/listas';
+
 /*Componentes de las paginas*/
 @import './components/header';
 
 @import './components/section';
 
 @import './components/footer';
+

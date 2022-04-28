@@ -6,6 +6,25 @@
 }
 
 /*Variables*/
+/*Extends en botones productos y boton enviar de contactenos*/
+.form-row button, .color-titulo {
+  color: black;
+  padding: 10px;
+  background-color: pink;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  border: 2px solid rgb(160, 0, 61);
+}
+
+.box-footer, footer, .titulo-container, .header-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*Mixin*/
+/*Listas*/
 /*Componentes de las paginas*/
 /*Body*/
 body {
@@ -20,14 +39,12 @@ body {
   padding: 20px 0;
   border: 5px solid black;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
 }
 
 .imagen-logo {
   width: 15%;
-  border-radius: 50px;
   border: 2px solid black;
+  border-radius: 50px;
 }
 
 a {
@@ -41,8 +58,6 @@ a {
   background: url("../imagenes/fondorosa.png");
   border: 5px solid black;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
   margin-top: 10px;
   margin-bottom: 40px;
   font-size: 0.8rem;
@@ -52,14 +67,13 @@ a {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  font-size: 3em;
   padding: 20px 0;
   margin: 0 20px;
   color: black;
 }
 
 h5 {
-  font-size: 0.5em;
+  font-size: 1.5rem;
   padding-left: 30px;
 }
 
@@ -71,7 +85,7 @@ h5 {
   padding: 10px 0;
   background: url("../imagenes/fondorosa.png");
   color: black;
-  font-size: 2.2em;
+  font-size: 2.2rem;
   text-decoration: none;
   text-align: center;
   border: 5px solid black;
@@ -98,17 +112,6 @@ h5 {
   border-radius: 20px;
 }
 
-.color-titulo {
-  color: black;
-  padding: 10px;
-  background-color: pink;
-  border-radius: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 2px 8px;
-  border: 2px solid rgb(160, 0, 61);
-}
-
 .color-titulo:hover {
   background-color: rgb(190, 78, 144);
 }
@@ -117,7 +120,7 @@ h5 {
 /*Section Tercera Pagina Nosotros*/
 .parrafosnosotros {
   margin: 10px 10px 10px 10px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   text-decoration: none;
   color: black;
   text-align: justify;
@@ -185,19 +188,8 @@ form {
   color: black;
 }
 
-.form-row button {
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
-  background-color: pink;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 40px;
-  cursor: pointer;
-}
-
 .form-row button:hover {
-  background-color: palevioletred;
+  background-color: rgb(190, 78, 144);
 }
 
 .form-row button:active {
@@ -212,15 +204,8 @@ footer {
   background: url("../imagenes/fondorosa.png");
   border: 5px solid black;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.box-footer {
-  display: flex;
-  justify-content: center;
 }
 
 .box1 {

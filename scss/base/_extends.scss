@@ -1,0 +1,15 @@
+%mensaje {
+    color: $primary-color;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px 8px;
+    border: 2px solid rgb(160, 0, 61);
+}
+
+%flexbox {
+    display: flex;
+    justify-content: center;
+}

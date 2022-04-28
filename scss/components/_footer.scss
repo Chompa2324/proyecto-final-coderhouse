@@ -2,18 +2,15 @@
 
 footer{
     background: url($image-tittles);
-    border: 5px solid $primary-color;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
+    @include bordes(5px solid $primary-color, 20px);
     padding-top: 20px;
     padding-bottom: 20px;
+    @extend %flexbox;
 }
 
 
 .box-footer{
-    display: flex;
-    justify-content: center;
+    @extend %flexbox;
 }
 
 

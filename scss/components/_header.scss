@@ -12,35 +12,30 @@ body {
 .header-container{
     background: url($image-tittles);
     padding: 20px 0;
-    border: 5px solid $primary-color;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
+    @include bordes(5px solid $primary-color, 20px);
+    @extend %flexbox;
 }
 
 .imagen-logo {
     width: 15%;
-    border-radius: 50px;
-    border: 2px solid black;
+    @include bordes(2px solid $primary-color, 50px)
 }
 
 a{
     text-decoration: none;
     color: $primary-color;
-    font-size: 1.2rem;
+    font-size: nth($size, 2);
     margin-right: 20px;
 }
 
 
 .titulo-container{
     background: url($image-tittles);
-    border: 5px solid $primary-color;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
+    @include bordes(5px solid $primary-color, 20px);
     margin-top: 10px;
     margin-bottom: 40px;
-    font-size: 0.8rem;
+    font-size: nth($size, 1);
+    @extend %flexbox;
 }
 
 
@@ -48,7 +43,6 @@ a{
     align-items: center;
     display: flex;
     justify-content: space-around;
-    font-size: 3em;
     padding: 20px 0;
     margin: 0 20px;
     color: $primary-color;
@@ -56,7 +50,7 @@ a{
 
 
 h5{
-    font-size: 0.5em;
+    font-size: nth($size, 4);
     padding-left: 30px;
 }
 
@@ -70,11 +64,10 @@ h5{
     padding: 10px 0;
     background: url($image-tittles);
     color: $primary-color;
-    font-size: 2.2em;
+    font-size: nth($size, 5);
     text-decoration: none;
     text-align: center;
-    border: 5px solid $primary-color;
-    border-radius: 20px;
+    @include bordes(5px solid $primary-color, 20px)
 }
 
 /*Fin Titulos H2*/
