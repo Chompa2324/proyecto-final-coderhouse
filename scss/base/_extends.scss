@@ -3,9 +3,19 @@
     padding: 10px;
     background-color: pink;
     border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 0.5px;
     padding: 2px 8px;
+    border: 2px solid rgb(160, 0, 61);
+}
+
+%botton {
+    color: $primary-color;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 5px;
+    margin-top: 1px;
+    padding: 5px 30px;
     border: 2px solid rgb(160, 0, 61);
 }
 

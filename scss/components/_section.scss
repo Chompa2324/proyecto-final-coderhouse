@@ -16,7 +16,7 @@
 
 
 .border-img{
-    @include bordes(5px solid $primary-color, 20px)
+    @include bordes(3px solid $primary-color, 20px)
 }
 
 
@@ -47,11 +47,15 @@
 
 form {
     font-size: nth($size, 9);
-    line-height: 1.3;
+    line-height: 1.2rem;
     color: $primary-color;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.contact-name {
     text-decoration: underline;
 }
 
@@ -59,13 +63,13 @@ form {
 .speaker-form {
     border-radius: 5px;
     width: 80%;
-    margin: 0 0 40px 0;
-    padding: 50px;
+    margin: 0 0 60px 0;
+    padding: 30px;
 }
 
 
 .form-row { 
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -97,8 +101,8 @@ form {
     @include bordes(2px solid $primary-color, 5px);
     margin-bottom: 10px;
     padding: 7px;
-    min-height: 150px;
-    min-width: 120%;
+    min-height: 100px;
+    min-width: 150%;
     resize: none;
 }
 
@@ -111,7 +115,7 @@ form {
 
 
 .form-row button {
-    @extend %mensaje;
+    @extend %botton;
 }
 
 
