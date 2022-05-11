@@ -2,6 +2,8 @@
 
 footer{
     background: url($image-tittles);
+    background-repeat: no-repeat;
+    background-size: cover;
     @include bordes(5px solid $primary-color, 20px);
     padding-top: 20px;
     padding-bottom: 20px;

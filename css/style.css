@@ -28,7 +28,7 @@
   border: 2px solid rgb(160, 0, 61);
 }
 
-.box-footer, footer, .titulo-container, .header-container {
+.box-footer, footer, .box-redsocial, .titulo-container, .header-container {
   display: flex;
   justify-content: center;
 }
@@ -103,6 +103,32 @@ h5 {
 }
 
 /*Fin Titulos H2*/
+/*Index - Informacion de la pagina*/
+.container-all {
+  margin: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.container-all2 {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  transform: translate(10px, 10px);
+}
+
+.container-all3 {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Index - Fin Informacion de la pagina*/
 /*Section Segunda Pagina Productos*/
 .box-imagen-container {
   display: flex;
@@ -211,10 +237,42 @@ form {
 
 /*Fin cuarta Pagina Contactenos*/
 /*Section Pagina Quinta Metodos de Pago*/
-/*ACLARACION: ESTA PAGINA ESTA PROGRAMADA CON LOS ATRIBUTOS DE LAS PAGINAS ANTERIORES*/
+.box-redsocial {
+  flex-wrap: wrap;
+}
+
+.box-imagen-redsocial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.border-img-social {
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+/*Fin pagina Metodos de Pago*/
+/*Chat Fixed*/
+.conteiiner {
+  display: flex;
+  justify-content: center;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 3%;
+  right: 1%;
+  width: 4%;
+}
+
+/*Fin Chat Fixed*/
 /*Footer 1*/
 footer {
   background: url("../imagenes/fondorosa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 5px solid black;
   border-radius: 20px;
   padding-top: 20px;

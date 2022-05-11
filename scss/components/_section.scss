@@ -1,3 +1,29 @@
+/*Index - Informacion de la pagina*/
+
+.container-all {
+    margin: 30px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.container-all2 {
+    @include bordes(3px solid $primary-color, 20px);
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    transform: translate(10px, 10px);
+}
+
+.container-all3 {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 18px;
+    color: $primary-color;
+    font-family: $primary-font-family;
+}
+/*Index - Fin Informacion de la pagina*/
+
 /*Section Segunda Pagina Productos*/
 
 .box-imagen-container{
@@ -131,4 +157,38 @@ form {
 /*Fin cuarta Pagina Contactenos*/
 
 /*Section Pagina Quinta Metodos de Pago*/
-/*ACLARACION: ESTA PAGINA ESTA PROGRAMADA CON LOS ATRIBUTOS DE LAS PAGINAS ANTERIORES*/
+
+.box-redsocial{
+    @extend %flexbox;
+    flex-wrap: wrap;
+}
+
+.box-imagen-redsocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.border-img-social{
+    @include bordes(3px solid $primary-color, 20px);
+}
+
+/*Fin pagina Metodos de Pago*/
+
+/*Chat Fixed*/
+
+.conteiiner {
+    display: flex;
+    justify-content: center;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    width: 4%;
+
+}
+
+/*Fin Chat Fixed*/
