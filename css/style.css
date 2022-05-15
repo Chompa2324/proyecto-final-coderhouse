@@ -197,13 +197,22 @@ form {
 .form-row input[type=number] {
   border: 2px solid black;
   border-radius: 5px;
-  width: 130%;
+  width: 75%;
   padding: 7px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: black;
 }
 
+@media screen and (min-width: 576px) {
+  .form-row {
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+  }
+}
 .form-row label {
   margin-bottom: 15px;
 }
@@ -211,13 +220,13 @@ form {
 .form-row textarea {
   font-family: "Poppins", sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   border: 2px solid black;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 7px;
   min-height: 100px;
-  min-width: 120%;
+  min-width: 100%;
   resize: none;
 }
 
