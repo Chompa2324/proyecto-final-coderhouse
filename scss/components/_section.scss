@@ -10,9 +10,9 @@
     @include bordes(3px solid $primary-color, 20px);
     width: 30%;
     float: left;
-    margin-right: 40px;
+    margin-right: 25px;
     margin-bottom: 20px;
-    transform: translate(10px, 10px);
+    transform: translate(5px, 10px);
 }
 
 .container-all3 {
@@ -107,7 +107,7 @@ form {
 .form-row input[type="email"],
 .form-row input[type="number"] {
     @include bordes(2px solid $primary-color, 5px);
-    width: 100%;
+    width: 130%;
     padding: 7px;
     font-size: nth($size, 7);
     font-family: $primary-font-family;
