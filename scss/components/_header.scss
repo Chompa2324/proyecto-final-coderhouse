@@ -21,6 +21,13 @@ body {
     @include bordes(2px solid $primary-color, 50px)
 }
 
+@media screen and (max-width: 576px) {
+    .imagen-logo {
+        width: 20%;
+        @include bordes(2px solid $primary-color, 50px)
+    }
+}
+
 a{
     text-decoration: none;
     color: $primary-color;
