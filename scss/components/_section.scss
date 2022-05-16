@@ -24,6 +24,12 @@
 }
 
 @media screen and (max-width: 576px) {
+    .container-all {
+        margin: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    
     .container-all2 {
         @include bordes(3px solid $primary-color, 20px);
         width: 60%;
@@ -31,15 +37,15 @@
         margin-right: 25px;
         margin-bottom: 20px;
         transform: translate(5px, 10px);
+        
     }
     
     .container-all3 {
         text-align: justify;
         margin-top: 20px;
-        font-size: 18px;
         color: $primary-color;
         font-family: $primary-font-family;
-        font-size: nth($size, 7);
+        font-size: nth($size, 8);
 }
 }
 /*Index - Fin Informacion de la pagina*/

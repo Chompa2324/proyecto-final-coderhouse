@@ -136,6 +136,12 @@ h5 {
 }
 
 @media screen and (max-width: 576px) {
+  .container-all {
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
   .container-all2 {
     border: 3px solid black;
     border-radius: 20px;
@@ -149,10 +155,9 @@ h5 {
   .container-all3 {
     text-align: justify;
     margin-top: 20px;
-    font-size: 18px;
     color: black;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 /*Index - Fin Informacion de la pagina*/
