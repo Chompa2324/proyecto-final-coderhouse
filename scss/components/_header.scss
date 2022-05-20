@@ -18,7 +18,8 @@ body {
 
 .imagen-logo {
     width: 13%;
-    @include bordes(2px solid $primary-color, 50px)
+    @include bordes(2px solid $primary-color, 50px);
+    box-shadow: 5px 8px 12px rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 576px) {

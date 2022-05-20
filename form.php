@@ -3,7 +3,7 @@
 
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
-    $telefono = $_POST['telefono'];
+    $celular = $_POST['telefono'];
     $provincia = $_POST['provincia'];
     $codigopostal = $_POST['postal'];
     $mensaje = $_POST['textarea'];
