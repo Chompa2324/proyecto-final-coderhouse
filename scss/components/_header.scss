@@ -58,9 +58,10 @@ a{
 
 
 h5{
-    font-size: nth($size, 4);
+    font-size: nth($size, 3);
     padding-left: 30px;
 }
+
 
 /*Fin header*/
 
@@ -76,6 +77,13 @@ h5{
     text-decoration: none;
     text-align: center;
     @include bordes(5px solid $primary-color, 20px)
+}
+
+@media screen and (max-width:576px) {
+    .h2 {
+        font-size: nth($size, 3);
+        @include bordes (3px solid $primary-color, 10px);
+    }
 }
 
 /*Fin Titulos H2*/
