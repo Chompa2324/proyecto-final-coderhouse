@@ -102,8 +102,23 @@
     }
 }
 
+.color-titulo2{
+    @extend %mensaje2;
+    font-size: 15px;
+}
 
-.color-titulo:hover {
+@media screen and (max-width:576px) {
+    .color-titulo2 {
+        font-size: nth($size, 1);
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+.color-titulo2:hover {
     background-color: rgb(190, 78, 144);
 }
 
@@ -261,3 +276,13 @@ form {
     }
 }
 /*Fin Chat Fixed*/
+
+/*Carrito de Compra*/
+
+.carrito{
+    margin: 20px;
+    padding-left: 20px;
+    text-decoration: overline;
+}
+
+/*Fin Carrito de Compra*/

@@ -11,7 +11,7 @@ body {
 
 .header-container{
     background: url($image-tittles);
-    padding: 20px 0;
+    padding: 20px;
     @include bordes(5px solid $primary-color, 20px);
     @extend %flexbox;
 }
